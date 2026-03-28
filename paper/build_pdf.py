@@ -13,10 +13,11 @@ SECTIONS = [
     "method.md",
     "results.md",
     "conclusion.md",
+    "references.md",
 ]
 
 TITLE = "ShiftQuant: Analyzing the Limits of Shift-Based Post-Training Quantization for LLMs"
-AUTHORS = "Anonymous"
+AUTHORS = "Zorko &nbsp;·&nbsp; <a href='https://zorko.xyz'>zorko.xyz</a>"
 
 CSS = """
 @page {
@@ -52,6 +53,11 @@ p.authors {
     font-size: 10pt;
     color: #333;
     margin-bottom: 1.2cm;
+}
+
+p.authors a {
+    color: #333;
+    text-decoration: none;
 }
 
 h1 {
@@ -158,6 +164,14 @@ hr {
     margin: 1.5em 0;
 }
 
+/* References section — hanging indent */
+h1#references ~ p, h1:has(+ p > strong) ~ p {
+    padding-left: 1.8em;
+    text-indent: -1.8em;
+    margin-bottom: 0.7em;
+    font-size: 9.5pt;
+}
+
 .section-abstract {
     background: #f9f9f9;
     border: 1px solid #ddd;
@@ -175,6 +189,7 @@ SECTION_LABELS = {
     "method.md":        "3  Method",
     "results.md":       "4  Experiments",
     "conclusion.md":    "5  Conclusion",
+    "references.md":    "References",
 }
 
 

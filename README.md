@@ -118,7 +118,7 @@ python paper/build_pdf.py
 @misc{shiftquant2026,
   title   = {ShiftQuant: Analyzing the Limits of Shift-Based Post-Training
              Quantization for LLMs},
-  author  = {Anonymous},
+  author  = {Zorko},
   year    = {2026},
   url     = {https://github.com/Kyworn/ShiftQuant}
 }
