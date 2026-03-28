@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+*.DS_Store
+.pytest_cache/
+*.ipynb_checkpoints/
+paper/shiftquant.html
